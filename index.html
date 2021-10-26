@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,7 +18,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <title>WebStudio</title>
   </head>
   <body>
@@ -383,34 +381,34 @@
     <!-- Футер -->
 
     <footer class="footer">
-      <div class="container wrap">
-        <div class="footer-left">
+      <div class="container footer__wrap">
+        <div>
           <a href="./index.html" class="logo"
             >Web<span class="logo--white">Studio</span></a
           >
           <address>
-            <ul class="address-list">
-              <li class="address-item">
-                <a href="" class="address-contact map"
+            <ul class="address__list">
+              <li class="address__item">
+                <a href="" class="address__contact address__map"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address-item">
-                <a href="mailto:info@example.com" class="link address-contact"
+              <li class="address__item">
+                <a href="mailto:info@example.com" class="link address__contact"
                   >info@example.com</a
                 >
               </li>
-              <li class="address-item">
-                <a href="tel:+380991111111" class="link address-contact"
+              <li class="address__item">
+                <a href="tel:+380991111111" class="link address__contact"
                   >+38 099 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-right">
+        <div>
           <h2 class="visually-hidden">Соцсети</h2>
-          <h3 class="title">Присоединяйтесь</h3>
+          <h3 class="social__title">Присоединяйтесь</h3>
           <ul class="social">
             <li class="social__item">
               <a href="" class="social__link social__link--inversion"
@@ -439,12 +437,12 @@
           </ul>
         </div>
         <form class="subscribe">
-          <b class="subscribe-heading">Подпишитесь на рассылку</b>
-          <div class="subscribe-field">
+          <b class="subscribe__heading">Подпишитесь на рассылку</b>
+          <div class="subscribe__field">
             <label
               ><input type="email" name="mail" placeholder="E-mail"
             /></label>
-            <button type="submit" class="btn-subscribe">Подписаться</button>
+            <button type="submit" class="btn__subscribe">Подписаться</button>
           </div>
         </form>
       </div>
@@ -454,8 +452,8 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="btn-modal" data-modal-close>
-          <svg class="close">
+        <button type="button" class="btn__modal" data-modal-close>
+          <svg class="btn__modal--close">
             <use href="./images/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
