@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--footer-color);
+  background-color: $footer-color;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -22,7 +22,7 @@
   width: 696px;
   margin: 0 auto;
 
-  color: var(--heading-color);
+  color: $heading-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -42,8 +42,8 @@
   min-width: 200px;
   margin-top: 30px;
 
-  background-color: var(--accent-color);
-  color: var(--heading-color);
+  background-color: $accent-color;
+  color: $heading-color;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;

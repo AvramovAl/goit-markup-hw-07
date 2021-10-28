@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--footer-color);
+  background-color: $footer-color;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -21,7 +21,7 @@
 }
 
 .address__contact {
-  color: var(--footer-address);
+  color: footer-address;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -32,16 +32,16 @@
 
 .address__contact:hover,
 .address__contact:focus {
-  color: var(--heading-color);
+  color: $heading-color;
   cursor: pointer;
 }
 
 .address__map {
-  color: var(--heading-color);
+  color: $heading-color;
 }
 
 .social__title {
-  color: var(--heading-color);
+  color: $heading-color;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -76,7 +76,7 @@
   padding-bottom: 15px;
   padding-left: 16px;
 
-  background-color: var(--footer-color);
+  background-color: $footer-color;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -101,8 +101,8 @@
   padding-left: 32px;
   min-width: 200px;
 
-  background-color: var(--accent-color);
-  color: var(--heading-color);
+  background-color: $accent-color;
+  color: $heading-color;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;

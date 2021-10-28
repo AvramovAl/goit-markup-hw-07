@@ -1,7 +1,7 @@
 .team {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
-  background-color: var(--background-filter);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $background-filter;
 }
 
 .team .section-title {
@@ -31,13 +31,13 @@
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background-color: var(--heading-color);
+  background-color: $heading-color;
 }
 
 .team__title {
   margin-bottom: 10px;
 
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -45,7 +45,7 @@
 }
 
 .team__text {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;

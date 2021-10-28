@@ -1,7 +1,7 @@
 .projects {
   border-top: 1px solid #ececec;
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter__list {
@@ -19,7 +19,7 @@
 
 .filter__item .btn__filter {
   display: inline-block;
-  background-color: var(--background-filter);
+  background-color: $background-filter;
   height: 38px;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -39,8 +39,8 @@
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: var(--accent-color);
-    color: var(--background-filter);
+    background-color: $accent-color;
+    color: $background-filter;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
@@ -51,16 +51,16 @@
 .card__set {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--card-set-gap));
-  margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * 30px);
+  margin-left: calc(-1 * 30px);
 }
 
 .card__item {
   display: flex;
   flex-direction: column;
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
-  margin-top: var(--card-set-gap);
-  margin-left: var(--card-set-gap);
+  flex-basis: calc(100% / 3 - (30px));
+  margin-top: 30px;
+  margin-left: 30px;
   width: 370px;
   border: 1px solid #eeeeee;
 
@@ -88,7 +88,7 @@
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: var(--heading-color);
+  color: $heading-color;
   background: rgba(33, 150, 243, 0.9);
 
   pointer-events: none;
@@ -104,7 +104,7 @@
 }
 
 .card__title {
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -113,7 +113,7 @@
 }
 
 .card__text {
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;

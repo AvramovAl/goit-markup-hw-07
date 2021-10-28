@@ -48,7 +48,7 @@
 
 .btn__modal:hover .btn__modal--close,
 .btn__modal:focus .btn__modal--close {
-  fill: var(--accent-color);
+  fill: $accent-color;
   cursor: pointer;
 }
 
@@ -66,7 +66,7 @@
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 
 .form-field {
@@ -81,7 +81,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 
 .form-field input {
@@ -92,7 +92,7 @@
 }
 
 .form-field input:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .form-field textarea {
@@ -104,7 +104,7 @@
 }
 
 .form-field textarea:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .form-field textarea::placeholder {
@@ -121,7 +121,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   margin-bottom: 30px;
 }
 
@@ -158,7 +158,7 @@
 
 .contract {
   padding-left: 4px;
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .form-field input:focus ~ .form-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .form-btn {
@@ -192,8 +192,8 @@
   padding-bottom: 10px;
   padding-left: 55px;
 
-  background-color: var(--accent-color);
-  color: var(--heading-color);
+  background-color: $accent-color;
+  color: $heading-color;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
